@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Portafolio Norwin",
+    "slug": "portafolio-norwin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.norwin.portafolio"
+    },
+    "android": {
+      "package": "com.norwin.portafolio"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
