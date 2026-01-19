@@ -107,7 +107,6 @@ export const HeroSection: React.FC = () => {
               {
                 left: `${15 + i * 15}%`,
                 top: `${20 + (i % 3) * 30}%`,
-                animationDelay: `${i * 0.5}s`,
               },
             ]}
           />

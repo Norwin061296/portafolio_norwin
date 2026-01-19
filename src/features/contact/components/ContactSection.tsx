@@ -284,7 +284,6 @@ const styles = StyleSheet.create({
     height: 3,
     backgroundColor: theme.colors.primary.main,
     transform: [{ scaleX: 0 }],
-    transition: 'transform 0.3s ease',
   },
   ctaCard: {
     marginBottom: theme.spacing.xxxl,

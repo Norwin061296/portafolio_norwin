@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { View, StyleSheet, ScrollView, Animated } from 'react-native';
+import { View, StyleSheet, Animated } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Typography, Container, Card } from '@shared/components';
 import { theme } from '@core/constants/theme';
@@ -114,7 +114,8 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colors.secondary.background,
     paddingVertical: theme.spacing.xxxl * 1.5,
     position: 'relative',
-    minHeight: '100vh',
+    // RN StyleSheet expects numeric dimensions; keep a strong minimum height for web layout.
+    minHeight: 700,
   },
   header: {
     alignItems: 'center',

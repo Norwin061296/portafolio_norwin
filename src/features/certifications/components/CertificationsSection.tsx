@@ -76,7 +76,7 @@ const CertificationCard: React.FC<CertificationCardProps> = ({ certification, in
             </View>
 
             <View style={styles.textContainer}>
-              <Typography variant="h3" weight="bold" style={styles.title}>
+              <Typography variant="h3" weight="bold" style={styles.cardTitle}>
                 {certification.title}
               </Typography>
               <Typography variant="body" color="accent" weight="semibold" style={styles.issuer}>
@@ -231,7 +231,7 @@ const styles = StyleSheet.create({
     gap: theme.spacing.xs,
     width: '100%',
   },
-  title: {
+  cardTitle: {
     color: theme.colors.text.primary,
     fontSize: theme.typography.fontSizes.xl,
     textAlign: 'center',
